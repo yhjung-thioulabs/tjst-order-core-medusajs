@@ -1,0 +1,1 @@
+{"version":3,"file":"delete-campaigns.js","sourceRoot":"","sources":["../../../src/promotion/workflows/delete-campaigns.ts"],"names":[],"mappings":";;;AAAA,2DAAsE;AACtE,oCAA8C;AAIjC,QAAA,yBAAyB,GAAG,kBAAkB,CAAA;AAC9C,QAAA,uBAAuB,GAAG,IAAA,8BAAc,EACnD,iCAAyB,EACzB,CAAC,KAAkC,EAAsB,EAAE;IACzD,OAAO,IAAA,2BAAmB,EAAC,KAAK,CAAC,GAAG,CAAC,CAAA;AACvC,CAAC,CACF,CAAA"}

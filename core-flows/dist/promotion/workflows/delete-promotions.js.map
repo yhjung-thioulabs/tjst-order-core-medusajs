@@ -1,0 +1,1 @@
+{"version":3,"file":"delete-promotions.js","sourceRoot":"","sources":["../../../src/promotion/workflows/delete-promotions.ts"],"names":[],"mappings":";;;AAAA,2DAAsE;AACtE,oCAA+C;AAIlC,QAAA,0BAA0B,GAAG,mBAAmB,CAAA;AAChD,QAAA,wBAAwB,GAAG,IAAA,8BAAc,EACpD,kCAA0B,EAC1B,CAAC,KAAkC,EAAsB,EAAE;IACzD,OAAO,IAAA,4BAAoB,EAAC,KAAK,CAAC,GAAG,CAAC,CAAA;AACxC,CAAC,CACF,CAAA"}
