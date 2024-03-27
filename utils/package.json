@@ -18,7 +18,7 @@
   "files": [
     "dist"
   ],
-  "author": "Medusa",
+  "author": "태정에스티",
   "license": "MIT",
   "devDependencies": {
     "@types/express": "^4.17.17",

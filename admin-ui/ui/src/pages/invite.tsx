@@ -140,7 +140,7 @@ const InvitePage = () => {
   if (!token) {
     return (
       <PublicLayout>
-        <SEO title="Create Account" />
+        <SEO title="계정 만들기" />
         <div className="gap-y-xsmall flex flex-col items-center">
           <h1 className="inter-xlarge-semibold mb- text-[20px]">
             Invalid invite
@@ -159,7 +159,7 @@ const InvitePage = () => {
 
   return (
     <PublicLayout>
-      <SEO title="Create Account" />
+      <SEO title="계정 만들기" />
       {signUp ? (
         <form onSubmit={handleAcceptInvite}>
           <div className="flex w-[300px] flex-col items-center">

@@ -1,7 +1,7 @@
 {
   "name": "@medusajs/file-local",
   "version": "1.0.3",
-  "description": "Local file plugin for Medusa",
+  "description": "Local file plugin for 태정에스티",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -14,7 +14,7 @@
     "url": "https://github.com/medusajs/medusa",
     "directory": "packages/medusa-file-local"
   },
-  "author": "Medusa",
+  "author": "태정에스티",
   "license": "MIT",
   "devDependencies": {
     "@medusajs/medusa": "^1.20.1",

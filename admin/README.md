@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.medusajs.com">
-    <img alt="Medusa" src="https://user-images.githubusercontent.com/7554214/153162406-bf8fd16f-aa98-4604-b87b-e13ab4baf604.png" width="100" />
+    <img alt="태정에스티" src="https://user-images.githubusercontent.com/7554214/153162406-bf8fd16f-aa98-4604-b87b-e13ab4baf604.png" width="100" />
   </a>
 </p>
 <h1 align="center">
@@ -9,7 +9,7 @@
 
 <h4 align="center">
   <a href="https://docs.medusajs.com">Documentation</a> |
-  <a href="https://demo.medusajs.com/">Medusa Admin Demo</a> |
+  <a href="https://demo.medusajs.com/">태정에스티 오더 시스템 어드민 Demo</a> |
   <a href="https://www.medusajs.com">Website</a>
 </h4>
 

@@ -46,12 +46,12 @@ const Topbar: React.FC = () => {
           hasNotifications={!!batchJobs?.length}
         />
       </div>
-      {showSupportform && (
+      {/* {showSupportform && (
         <MailDialog
           open={showSupportform}
           onClose={() => setShowSupportForm(false)}
         />
-      )}
+      )} */}
       {activityDrawerState && (
         <ActivityDrawer onDismiss={activityDrawerClose} />
       )}

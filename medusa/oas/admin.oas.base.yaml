@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   version: 1.0.0
-  title: Medusa Admin API
+  title: 태정에스티 오더 시스템 어드민 API
   license:
     name: MIT
     url: https://github.com/medusajs/medusa/blob/master/LICENSE

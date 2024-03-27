@@ -1,7 +1,7 @@
 {
   "name": "@medusajs/core-flows",
   "version": "0.0.6",
-  "description": "Set of workflow definitions for Medusa",
+  "description": "Set of workflow definitions for 태정에스티",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
@@ -18,7 +18,7 @@
   "files": [
     "dist"
   ],
-  "author": "Medusa",
+  "author": "태정에스티",
   "license": "MIT",
   "devDependencies": {
     "@medusajs/types": "^1.11.12",

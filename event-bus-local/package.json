@@ -1,7 +1,7 @@
 {
   "name": "@medusajs/event-bus-local",
   "version": "1.9.8",
-  "description": "Local Event Bus Module for Medusa",
+  "description": "Local Event Bus Module for 태정에스티",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -17,7 +17,7 @@
   "engines": {
     "node": ">=16"
   },
-  "author": "Medusa",
+  "author": "태정에스티",
   "license": "MIT",
   "devDependencies": {
     "@medusajs/types": "^1.11.12",

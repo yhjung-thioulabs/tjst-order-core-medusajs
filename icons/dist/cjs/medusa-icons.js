@@ -10469,7 +10469,7 @@ const Medusa = React__namespace.forwardRef(
     );
   }
 );
-Medusa.displayName = "Medusa";
+Medusa.displayName = "태정에스티";
 
 var __defProp$1A = Object.defineProperty;
 var __getOwnPropSymbols$1A = Object.getOwnPropertySymbols;

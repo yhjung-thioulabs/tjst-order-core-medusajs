@@ -390,7 +390,7 @@ var SalesChannelService = /** @class */ (function (_super) {
                                         return [2 /*return*/, store.default_sales_channel];
                                     }
                                     return [4 /*yield*/, this.create({
-                                            description: "Created by Medusa",
+                                            description: "Created by 태정에스티",
                                             name: "Default Sales Channel",
                                             is_disabled: false,
                                         })];

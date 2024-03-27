@@ -37,7 +37,7 @@ const LoginPage = () => {
 
   return (
     <PublicLayout>
-      <SEO title="Login" />
+      <SEO title="로그인" />
       {resetPassword ? (
         <ResetTokenCard goBack={showLogin} />
       ) : (

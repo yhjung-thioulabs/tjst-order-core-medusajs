@@ -17,7 +17,7 @@
   "files": [
     "dist"
   ],
-  "author": "Medusa",
+  "author": "태정에스티",
   "license": "MIT",
   "devDependencies": {
     "cross-env": "^5.2.1",

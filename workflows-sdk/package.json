@@ -1,7 +1,7 @@
 {
   "name": "@medusajs/workflows-sdk",
   "version": "0.1.4",
-  "description": "Set of workflows tooling for Medusa",
+  "description": "Set of workflows tooling for 태정에스티",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
@@ -18,7 +18,7 @@
   "files": [
     "dist"
   ],
-  "author": "Medusa",
+  "author": "태정에스티",
   "license": "MIT",
   "devDependencies": {
     "@medusajs/types": "^1.11.14",

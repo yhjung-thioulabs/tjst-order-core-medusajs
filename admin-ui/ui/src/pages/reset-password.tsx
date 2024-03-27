@@ -81,7 +81,7 @@ const ResetPasswordPage = () => {
 
   return (
     <PublicLayout>
-      <SEO title="Reset Password" />
+      <SEO title="패스워드 초기화" />
       <div className="flex flex-col items-center justify-center">
         {token ? (
           <form onSubmit={onSubmit}>

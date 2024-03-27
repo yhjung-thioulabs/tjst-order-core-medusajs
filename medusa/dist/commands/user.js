@@ -73,7 +73,7 @@ function default_1(_a) {
                         })];
                 case 4:
                     invite_1 = _b.sent();
-                    logger_1.default.info("\n      Invite token: ".concat(invite_1[0].token, "\n      Open the invite in Medusa Admin at: [your-admin-url]/invite?token=").concat(invite_1[0].token));
+                    logger_1.default.info("\n      Invite token: ".concat(invite_1[0].token, "\n      Open the invite in 태정에스티 오더 시스템 어드민 at: [your-admin-url]/invite?token=").concat(invite_1[0].token));
                     return [3 /*break*/, 7];
                 case 5:
                     userService = container.resolve("userService");

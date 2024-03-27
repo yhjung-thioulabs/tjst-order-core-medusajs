@@ -1,7 +1,7 @@
 {
   "name": "@medusajs/cache-inmemory",
   "version": "1.8.10",
-  "description": "In-memory Cache Module for Medusa",
+  "description": "In-memory Cache Module for 태정에스티",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
   "files": [
     "dist"
   ],
-  "author": "Medusa",
+  "author": "태정에스티",
   "license": "MIT",
   "devDependencies": {
     "@medusajs/types": "^1.11.6",

@@ -41,7 +41,7 @@ const Medusa = React.forwardRef(
     );
   }
 );
-Medusa.displayName = "Medusa";
+Medusa.displayName = "태정에스티";
 
 export { Medusa as default };
 //# sourceMappingURL=medusa.js.map

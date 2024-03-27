@@ -114,7 +114,7 @@
   "invite-modal-cancel": "Отказ",
   "invite-modal-invite": "Покани",
   "login-card-no-match": "Тези идентификационни данни не съответстват на нашите записи.",
-  "login-card-log-in-to-medusa": "Влезте в Medusa",
+  "login-card-log-in-to-medusa": "Влезте в 태정에스티",
   "login-card-email": "Имейл",
   "login-card-password": "Парола",
   "login-card-forgot-your-password": "Забравена парола?",
@@ -543,7 +543,7 @@
   "search-modal-to-select-and": "за избор и",
   "search-modal-to-search-anytime": "за търсене по всяко време",
   "templates-settings": "Настройки",
-  "templates-manage-the-settings-for-your-medusa-store": "Управление на настройките за вашия магазин Medusa",
+  "templates-manage-the-settings-for-your-medusa-store": "Управление на настройките за вашия магазин 태정에스티",
   "transfer-orders-modal-info": "Информация",
   "transfer-orders-modal-customer-is-already-the-owner-of-the-order": "Клиентът вече е собственик на поръчката",
   "transfer-orders-modal-success": "Успех",
@@ -2005,7 +2005,7 @@
   "users-invite-users": "Поканете потребители",
   "users-back-to-settings": "Назад към настройките",
   "users-the-team": "Екипът",
-  "users-manage-users-of-your-medusa-store": "Управлявайте потребителите на вашия Medusa",
+  "users-manage-users-of-your-medusa-store": "Управлявайте потребителите на вашия 태정에스티",
   "users-count_one": "{{count}}",
   "users-count_other": "{{count}}"
 }

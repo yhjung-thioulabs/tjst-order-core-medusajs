@@ -16,7 +16,7 @@ const LanguageSettings = () => {
           <p className="inter-base-regular text-grey-50">
             {t(
               "personal-information-language-settings-description",
-              "Adjust the language of Medusa Admin"
+              "Adjust the language of 태정에스티 오더 시스템 어드민"
             )}
           </p>
         </div>

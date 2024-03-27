@@ -18,7 +18,7 @@
   "engines": {
     "node": ">=16"
   },
-  "author": "Medusa",
+  "author": "태정에스티",
   "license": "MIT",
   "scripts": {
     "watch": "tsc --build --watch",
