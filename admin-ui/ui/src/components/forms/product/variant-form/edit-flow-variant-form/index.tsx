@@ -97,11 +97,11 @@ const EditFlowVariantForm = ({ form, isEdit }: Props) => {
         </div>
       </Accordion.Item>
       {showStockAndInventory && (
-        <Accordion.Item title="Stock & Inventory" value="stock">
+        <Accordion.Item title="재고" value="stock">
           <VariantStockForm form={nestedForm(form, "stock")} />
         </Accordion.Item>
       )}
-      <Accordion.Item title="Shipping" value="shipping">
+      {/* <Accordion.Item title="Shipping" value="shipping">
         <p className="inter-base-regular text-grey-50">
           Shipping information can be required depending on your shipping
           provider, and whether or not you are shipping internationally.
@@ -129,7 +129,7 @@ const EditFlowVariantForm = ({ form, isEdit }: Props) => {
           variant.
         </p>
         <MetadataForm form={nestedForm(form, "metadata")} />
-      </Accordion.Item>
+      </Accordion.Item> */}
     </Accordion>
   )
 }

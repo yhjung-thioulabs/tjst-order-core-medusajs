@@ -21,21 +21,23 @@ const VariantGeneralForm = ({ form }: Props) => {
   return (
     <div>
       <p className="inter-base-regular text-grey-50">
-        Configure the general information for this variant.
+        상품에 대한 일반 정보를 구성합니다.
       </p>
       <div className="pt-large">
         <div className="gap-x-large grid grid-cols-2">
           <InputField
-            label="Custom title"
-            placeholder="Green / XL..."
+            label="이름"
+            //placeholder="Green / XL..."
+            placeholder="사이즈"
             {...register(path("title"), {
               pattern: FormValidator.whiteSpaceRule("Title"),
             })}
             errors={errors}
           />
           <InputField
-            label="Material"
-            placeholder="80% wool, 20% cotton..."
+            label="재료"
+            //placeholder="80% wool, 20% cotton..."
+            placeholder="국내산 돼지고기 100%"
             {...form.register(path("material"), {
               pattern: FormValidator.whiteSpaceRule("Material"),
             })}

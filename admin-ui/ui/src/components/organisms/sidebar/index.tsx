@@ -80,32 +80,32 @@ const Sidebar: React.FC = () => {
               triggerHandler={triggerHandler}
             />
           )}
-          <SidebarMenuItem
+          {/* <SidebarMenuItem
             pageLink={"/a/customers"}
             icon={<UsersIcon size={ICON_SIZE} />}
             triggerHandler={triggerHandler}
             text={t("sidebar-customers", "Customers")}
-          />
-          {inventoryEnabled && (
+          /> */}
+          {/* {inventoryEnabled && (
             <SidebarMenuItem
               pageLink={"/a/inventory"}
               icon={<BuildingsIcon size={ICON_SIZE} />}
               triggerHandler={triggerHandler}
               text={t("sidebar-inventory", "Inventory")}
             />
-          )}
+          )} */}
           <SidebarMenuItem
             pageLink={"/a/discounts"}
             icon={<SaleIcon size={ICON_SIZE} />}
             triggerHandler={triggerHandler}
             text={t("sidebar-discounts", "Discounts")}
           />
-          <SidebarMenuItem
+          {/* <SidebarMenuItem
             pageLink={"/a/gift-cards"}
             icon={<GiftIcon size={ICON_SIZE} />}
             triggerHandler={triggerHandler}
             text={t("sidebar-gift-cards", "Gift Cards")}
-          />
+          /> */}
           <SidebarMenuItem
             pageLink={"/a/pricing"}
             icon={<CashIcon size={ICON_SIZE} />}

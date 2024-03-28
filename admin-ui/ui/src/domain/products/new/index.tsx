@@ -294,7 +294,7 @@ const NewProduct = ({ onClose }: Props) => {
                   <DiscountableForm form={nestedForm(form, "discounted")} />
                 </div>
               </Accordion.Item>
-              <Accordion.Item title="Organize" value="organize">
+              <Accordion.Item title="구성" value="organize">
                 <p className="inter-base-regular text-grey-50">
                   {t(
                     "new-to-start-selling-all-you-need-is-a-name-and-a-price",
@@ -317,7 +317,7 @@ const NewProduct = ({ onClose }: Props) => {
                   </div>
                 </div>
               </Accordion.Item>
-              <Accordion.Item title="Variants" value="variants">
+              <Accordion.Item title="옵션 및 변형" value="variants">
                 <p className="inter-base-regular text-grey-50">
                   {t(
                     "new-add-variations-of-this-product",
@@ -337,7 +337,7 @@ const NewProduct = ({ onClose }: Props) => {
                   />
                 </div>
               </Accordion.Item>
-              <Accordion.Item title="Attributes" value="attributes">
+              <Accordion.Item title="속성" value="attributes">
                 <p className="inter-base-regular text-grey-50">
                   {t(
                     "new-used-for-shipping-and-customs-purposes",

@@ -123,7 +123,7 @@ const VariantStockForm = ({ form, locationLevels }: Props) => {
           <div className="gap-y-2xsmall flex flex-col">
             <div className="flex items-center justify-between">
               <h3 className="inter-base-semibold mb-2xsmall">
-                Manage inventory
+              재고 관리
               </h3>
               <Controller
                 control={control}
@@ -134,8 +134,7 @@ const VariantStockForm = ({ form, locationLevels }: Props) => {
               />
             </div>
             <p className="inter-base-regular text-grey-50">
-              When checked Medusa will regulate the inventory when orders and
-              returns are made.
+              선택하면 시스템이 주문 및 반품 시 재고를 조절합니다.
             </p>
           </div>
           {manageInventory && (
@@ -143,7 +142,7 @@ const VariantStockForm = ({ form, locationLevels }: Props) => {
               <div className="gap-y-2xsmall flex flex-col">
                 <div className="flex items-center justify-between">
                   <h3 className="inter-base-semibold mb-2xsmall">
-                    Allow backorders
+                    예약 주문을 허용합니다.
                   </h3>
                   <Controller
                     control={control}
@@ -156,8 +155,7 @@ const VariantStockForm = ({ form, locationLevels }: Props) => {
                   />
                 </div>
                 <p className="inter-base-regular text-grey-50">
-                  When checked the product will be available for purchase
-                  despite the product being sold out
+                  상품이 매진되었음에도 불구하고 구매 가능 여부가 확인되면 해당 상품을 구매할 수 있습니다.
                 </p>
               </div>
               <div className="flex w-full flex-col text-base">

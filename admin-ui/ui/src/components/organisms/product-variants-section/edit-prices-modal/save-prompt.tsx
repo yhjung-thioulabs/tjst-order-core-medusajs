@@ -36,13 +36,13 @@ const SavePrompt: React.FC<ConfirmationPromptProps> = ({
       <Modal.Body>
         <Modal.Content>
           <div className="flex flex-col">
-            <span className="inter-large-semibold">Saving changes</span>
+            <span className="inter-large-semibold">변경 사항 저장</span>
             <span className="inter-base-regular text-grey-50 mt-1 mb-4 w-[420px]">
               {hasHiddenColumns
-                ? `You have edited prices in hidden columns: (${hiddenEditedColumns.join(
+                ? `숨겨진 열에서 가격을 편집했습니다.: (${hiddenEditedColumns.join(
                     ", "
-                  )}). Do you wish to save these too?`
-                : "Save edited variant prices"}
+                  )}). 이것도 저장하시겠습니까?`
+                : "편집된 상품 가격 저장"}
             </span>
           </div>
 
@@ -54,14 +54,14 @@ const SavePrompt: React.FC<ConfirmationPromptProps> = ({
             >
               <RadioGroup.Item
                 className="flex-1"
-                label={"Save all"}
-                description={"Save all price changes"}
+                label={"모두 저장하기"}
+                description={"모든 가격 변동 사항 저장"}
                 value={SaveMode.SAVE_ALL}
               />
               <RadioGroup.Item
                 className="flex-1"
-                label={"Save only visible"}
-                description={"Save only visible price changes"}
+                label={"보이는 것만 저장"}
+                description={"눈에 보이는 가격 변동 사항만 저장"}
                 value={SaveMode.SAVE_VISIBLE_ONLY}
               />
             </RadioGroup.Root>
@@ -75,7 +75,7 @@ const SavePrompt: React.FC<ConfirmationPromptProps> = ({
               size="small"
               onClick={handleClose}
             >
-              Cancel
+              취소
             </Button>
             <Button
               size="small"
@@ -99,7 +99,7 @@ const SavePrompt: React.FC<ConfirmationPromptProps> = ({
                 callback()
               }}
             >
-              Save changes
+              변경 사항 저장
             </Button>
           </div>
         </Modal.Footer>

@@ -137,7 +137,7 @@ const EditVariantsModal = ({ open, onClose, product }: Props) => {
                 <h2 className="inter-base-semibold mb-small">
                   {t(
                     "edit-variants-modal-product-variants",
-                    "Product variants"
+                    "제품 옵션 및 변형"
                   )}{" "}
                   <span className="inter-base-regular text-grey-50">
                     ({product.variants.length})

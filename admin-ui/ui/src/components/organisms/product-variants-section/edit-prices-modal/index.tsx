@@ -326,7 +326,7 @@ function EditPricesModal(props: EditPricesModalProps) {
                 <CrossIcon size={20} />
               </Button>
               <span className="text-small rounded-lg border border-2 border-gray-300 bg-gray-100 px-2 font-medium text-gray-500">
-                esc
+                닫기
               </span>
             </div>
             <div className="flex items-center gap-3">
@@ -336,7 +336,7 @@ function EditPricesModal(props: EditPricesModalProps) {
                 onClick={props.close}
                 className="text-black-800  cursor-pointer border p-1.5 font-medium"
               >
-                Discard
+                폐기
               </Button>
               <Button
                 variant="ghost"
@@ -344,7 +344,7 @@ function EditPricesModal(props: EditPricesModalProps) {
                 onClick={onSave}
                 className="cursor-pointer border bg-black p-1.5 font-medium text-white hover:bg-black"
               >
-                Save and close
+                저장하고 닫기
               </Button>
             </div>
           </div>
@@ -367,9 +367,9 @@ function EditPricesModal(props: EditPricesModalProps) {
           handleClose={() => setShowCloseConfirmationPrompt(false)}
           onDelete={async () => props.close()}
           successText={""}
-          confirmText="Yes, close"
-          heading="Close"
-          text="Are you sure you want to close this editor without saving?"
+          confirmText="닫을게요."
+          heading="닫기"
+          text="저장하지 않고 이 편집기를 닫으시겠습니까?"
         />
       )}
       {showSaveConfirmationPrompt && (

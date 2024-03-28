@@ -26,8 +26,9 @@ const DiscountableForm = ({ form, isGiftCard }: Props) => {
         />
       </div>
       <p className="inter-base-regular text-grey-50">
-        When unchecked discounts will not be applied to this{" "}
-        {isGiftCard ? "gift card" : "product"}.
+        {/* When unchecked discounts will not be applied to this{" "}
+        {isGiftCard ? "gift card" : "product"}. */}
+        체크하지 않은 경우 이 상품에는 할인이 적용되지 않습니다.
       </p>
     </div>
   )

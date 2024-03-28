@@ -128,11 +128,11 @@ const ProductVariantsSection = ({ product }: Props) => {
 
   return (
     <OptionsProvider product={product}>
-      <Section title="Variants" actions={actions}>
+      <Section title="제품 변형 및 옵션" actions={actions}>
         <ProductOptions />
         <div className="mt-xlarge">
           <h2 className="inter-large-semibold mb-base">
-            {t("product-variants-section-product-variants", "Product variants")}{" "}
+            {t("product-variants-section-product-variants", "제품 변형 및 옵션")}{" "}
             <span className="inter-large-regular text-grey-50">
               ({product.variants.length})
             </span>

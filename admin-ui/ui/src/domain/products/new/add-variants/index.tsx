@@ -361,7 +361,7 @@ const AddVariantsForm = ({
                   "opacity-50": !options.length,
                 })}
               >
-                {t("add-variants-product-variants", "Product variants")}{" "}
+                {t("add-variants-product-variants", "제품 옵션 및 변형")}{" "}
                 <span className="inter-base-regular text-grey-50">
                   ({variants?.length || 0})
                 </span>

@@ -97,7 +97,7 @@ const VariantStockForm = ({ form }: Props) => {
   return (
     <div>
       <p className="inter-base-regular text-grey-50">
-        Configure the inventory and stock for this variant.
+        상품의 재고를 구성합니다.
       </p>
       <div className="gap-y-xlarge pt-large flex flex-col">
         <div className="gap-large grid grid-cols-2">
@@ -108,7 +108,7 @@ const VariantStockForm = ({ form }: Props) => {
           />
           {!stockLocationEnabled && (
             <InputField
-              label="Quantity in stock"
+              label="재고 수량"
               type="number"
               placeholder="100..."
               errors={errors}
@@ -135,7 +135,7 @@ const VariantStockForm = ({ form }: Props) => {
         </div>
         <div className="gap-y-2xsmall flex flex-col">
           <div className="flex items-center justify-between">
-            <h3 className="inter-base-semibold mb-2xsmall">Manage inventory</h3>
+            <h3 className="inter-base-semibold mb-2xsmall">재고 관리</h3>
             <Controller
               control={control}
               name={path("manage_inventory")}
@@ -145,13 +145,12 @@ const VariantStockForm = ({ form }: Props) => {
             />
           </div>
           <p className="inter-base-regular text-grey-50">
-            When checked Medusa will regulate the inventory when orders and
-            returns are made.
+            체크하면 주문 및 반품이 이루어질 때 시스템이 재고를 조절합니다.
           </p>
         </div>
         <div className="gap-y-2xsmall flex flex-col">
           <div className="flex items-center justify-between">
-            <h3 className="inter-base-semibold mb-2xsmall">Allow backorders</h3>
+            <h3 className="inter-base-semibold mb-2xsmall">예약 주문 허용하기</h3>
             <Controller
               control={control}
               name={path("allow_backorder")}
@@ -161,8 +160,7 @@ const VariantStockForm = ({ form }: Props) => {
             />
           </div>
           <p className="inter-base-regular text-grey-50">
-            When checked the product will be available for purchase despite the
-            product being sold out
+            상품이 매진되었음에도 불구하고 구매 가능 여부가 확인되면 해당 상품을 구매할 수 있습니다.
           </p>
         </div>
         <FeatureToggle featureFlag="inventoryService">

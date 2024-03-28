@@ -28,8 +28,9 @@ const GeneralForm = ({ form, requireHandle = true, isGiftCard }: Props) => {
     <div>
       <div className="gap-x-large mb-small grid grid-cols-2">
         <InputField
-          label="Title"
-          placeholder={isGiftCard ? "Gift Card" : "Winter Jacket"}
+          label="메뉴 이름"
+          //placeholder={isGiftCard ? "Gift Card" : "Winter Jacket"}
+          placeholder={isGiftCard ? "Gift Card" : "순대볶음"}
           required
           {...register(path("title"), {
             required: "Title is required",
@@ -42,8 +43,8 @@ const GeneralForm = ({ form, requireHandle = true, isGiftCard }: Props) => {
           errors={errors}
         />
         <InputField
-          label="Subtitle"
-          placeholder="Warm and cozy..."
+          label="서브타이틀"
+          placeholder="매콤쌉쌀달콤"
           {...register(path("subtitle"), {
             pattern: FormValidator.whiteSpaceRule("Subtitle"),
           })}
@@ -51,22 +52,25 @@ const GeneralForm = ({ form, requireHandle = true, isGiftCard }: Props) => {
         />
       </div>
       <p className="inter-base-regular text-grey-50 mb-large">
-        Give your {isGiftCard ? "gift card" : "product"} a short and clear
-        title.
+        {/* Give your {isGiftCard ? "gift card" : "product"} a short and clear */}
+        {/* title. */}
+        메뉴 이름을 입력하세요.
         <br />
-        50-60 characters is the recommended length for search engines.
+        {/* 50-60 characters is the recommended length for search engines. */}
       </p>
       <div className="gap-x-large mb-large grid grid-cols-2">
         <InputField
           label="Handle"
           tooltipContent={
             !requireHandle
-              ? `The handle is the part of the URL that identifies the ${
-                  isGiftCard ? "gift card" : "product"
-                }. If not specified, it will be generated from the title.`
+              // ? `The handle is the part of the URL that identifies the ${
+              //     isGiftCard ? "gift card" : "product"
+              //   }. If not specified, it will be generated from the title.`
+              ? "핸들은 제품을 식별하는 URL의 일부로, 지정하지 않으면 제목에서 생성됩니다."
               : undefined
           }
-          placeholder={isGiftCard ? "gift-card" : "winter-jacket"}
+          //placeholder={isGiftCard ? "gift-card" : "winter-jacket"}
+          placeholder={isGiftCard ? "gift-card" : "sundaebokkm"}
           required={requireHandle}
           {...register(path("handle"), {
             required: requireHandle ? "Handle is required" : undefined,
@@ -77,8 +81,9 @@ const GeneralForm = ({ form, requireHandle = true, isGiftCard }: Props) => {
           errors={errors}
         />
         <InputField
-          label="Material"
-          placeholder={isGiftCard ? "Paper" : "100% Cotton"}
+          label="재료"
+          //placeholder={isGiftCard ? "Paper" : "100% Cotton"}
+          placeholder={"국내산 돼지고기, 국내산 콩, 국내산 밀가루"}
           {...register(path("material"), {
             minLength: FormValidator.minOneCharRule("Material"),
             pattern: FormValidator.whiteSpaceRule("Material"),
@@ -87,9 +92,10 @@ const GeneralForm = ({ form, requireHandle = true, isGiftCard }: Props) => {
         />
       </div>
       <TextArea
-        label="Description"
+        label="메뉴 설명"
         placeholder={
-          isGiftCard ? "The gift card is..." : "A warm and cozy jacket..."
+          //isGiftCard ? "The gift card is..." : "A warm and cozy jacket..."
+          "매콤쌉쌀달콤..."
         }
         rows={3}
         className="mb-small"
@@ -97,10 +103,11 @@ const GeneralForm = ({ form, requireHandle = true, isGiftCard }: Props) => {
         errors={errors}
       />
       <p className="inter-base-regular text-grey-50">
-        Give your {isGiftCard ? "gift card" : "product"} a short and clear
-        description.
+        {/* Give your {isGiftCard ? "gift card" : "product"} a short and clear */}
+        {/* description. */}
+        메뉴에 대한 설명을 입력하세요.
         <br />
-        120-160 characters is the recommended length for search engines.
+        {/* 120-160 characters is the recommended length for search engines. */}
       </p>
     </div>
   )
