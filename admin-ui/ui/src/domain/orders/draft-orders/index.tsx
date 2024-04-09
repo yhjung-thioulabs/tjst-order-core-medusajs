@@ -68,7 +68,7 @@ const DraftOrderIndex = () => {
       {getWidgets("draft_order.list.after").map((Widget, i) => {
         return (
           <WidgetContainer
-            key={i}
+            key={i}   
             entity={null}
             injectionZone="draft_order.list.after"
             widget={Widget}

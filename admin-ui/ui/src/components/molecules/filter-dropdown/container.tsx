@@ -79,7 +79,7 @@ const FilterDropdownContainer = ({
             variant="ghost"
             onClick={() => onClear()}
           >
-            Clear
+            지우기
           </Button>
           <Button
             tabIndex={-1}
@@ -88,7 +88,7 @@ const FilterDropdownContainer = ({
             size="small"
             onClick={() => onSubmit()}
           >
-            Apply
+            적용하기
           </Button>
         </div>
       </RadixPopover.Content>
