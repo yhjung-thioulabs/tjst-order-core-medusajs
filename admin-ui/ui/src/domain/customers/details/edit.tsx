@@ -156,7 +156,7 @@ const EditCustomerModal = ({
               className="mr-2"
               type="button"
             >
-              {t("details-cancel", "Cancel")}
+              {t("details-cancel", "취소")}
             </Button>
             <Button
               loading={updateCustomer.isLoading}

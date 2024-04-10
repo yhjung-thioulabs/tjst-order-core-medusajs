@@ -59,7 +59,7 @@ const AddTypesConditionsScreen = () => {
       <Modal.Footer>
         <div className="space-x-xsmall flex w-full justify-end">
           <Button variant="secondary" size="small" onClick={pop}>
-            {t("product-types-cancel", "Cancel")}
+            {t("product-types-cancel", "취소")}
           </Button>
           <Button
             variant="primary"

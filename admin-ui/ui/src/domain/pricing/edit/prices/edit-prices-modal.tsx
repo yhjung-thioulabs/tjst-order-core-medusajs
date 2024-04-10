@@ -558,7 +558,7 @@ const EditPricesModal = ({
   const backButtonText = React.useMemo(() => {
     switch (tab) {
       case Tab.PRICES:
-        return t("price-list-edit-prices-modal-back-button-cancel", "Cancel")
+        return t("price-list-edit-prices-modal-back-button-cancel", "취소")
       default:
         return t("price-list-edit-prices-modal-back-button-back", "Back")
     }

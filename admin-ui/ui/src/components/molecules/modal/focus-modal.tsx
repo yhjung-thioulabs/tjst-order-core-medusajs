@@ -55,7 +55,7 @@ FocusModal.BasicFocusModal = ({
   handleClose,
   onSubmit,
   children,
-  cancelText = "Cancel",
+  cancelText = "취소",
   submitText = "Save changes",
 }) => {
   return (
@@ -95,7 +95,7 @@ const BasicFocusModalHeader: React.FC<BasicFocusModalProps> = ({
             variant="ghost"
             className="rounded-rounded border"
           >
-            {cancelText || "Cancel"}
+            {cancelText || "취소"}
           </Button>
           <Button
             size="small"

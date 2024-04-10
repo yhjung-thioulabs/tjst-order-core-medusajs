@@ -69,7 +69,7 @@ const EditVariantScreen = ({ variant, product }: Props) => {
         <Modal.Footer>
           <div className="gap-x-xsmall flex w-full items-center justify-end">
             <Button variant="secondary" size="small" type="button">
-              {t("edit-variants-modal-cancel", "Cancel")}
+              {t("edit-variants-modal-cancel", "취소")}
             </Button>
             <Button
               variant="primary"

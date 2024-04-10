@@ -128,7 +128,7 @@ const CreateReturnReasonModal = ({
                 onClick={handleClose}
                 type="button"
               >
-                {t("return-reasons-cancel", "Cancel")}
+                {t("return-reasons-cancel", "취소")}
               </Button>
               <Button
                 loading={isLoading}

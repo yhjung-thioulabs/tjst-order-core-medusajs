@@ -10,8 +10,8 @@ const DeleteDialog = ({
   text,
   onConfirm,
   onCancel,
-  confirmText = "Yes, confirm",
-  cancelText = "Cancel",
+  confirmText = "확인",
+  cancelText = "취소",
   extraConfirmation = false,
   entityName,
 }) => {
@@ -28,9 +28,9 @@ const DeleteDialog = ({
           {extraConfirmation && (
             <div className="my-base flex flex-col">
               <span className="inter-base-regular text-grey-50 mt-1">
-                Type the name{" "}
-                <span className="font-semibold">"{entityName}"</span> to
-                confirm.
+                {" "}
+                <span className="font-semibold">"{entityName}"</span>
+                를 입력하여 주문 취소를 확인합니다.
               </span>
               <InputField
                 autoFocus={true}

@@ -212,7 +212,7 @@ const CollectionModal: React.FC<CollectionModalProps> = ({
                 type="button"
                 onClick={onClose}
               >
-                {t("collection-modal-cancel", "Cancel")}
+                {t("collection-modal-cancel", "취소")}
               </Button>
               <Button
                 variant="primary"

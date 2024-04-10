@@ -20,7 +20,7 @@ type displaySetting = {
 
 const DisplaySettingsDateDescription = ({ date }: { date: Date }) => (
   <div className="text-grey-50 inter-small-regular flex ">
-    {moment.utc(date).format("ddd, DD MMM YYYY")}
+    {moment.utc(date).format("ddd, YYYY-MM-DD")}
     <span className="ml-3 flex items-center">
       <ClockIcon size={16} />
       <span className="ml-2.5">{moment.utc(date).format("UTC HH:mm")}</span>

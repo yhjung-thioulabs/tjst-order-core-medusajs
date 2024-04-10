@@ -157,7 +157,7 @@ const GiftCardDetails = () => {
                         {t("details-expires-on", "Expires on")}
                       </div>
                       <div>
-                        {moment(giftCard.ends_at).format("DD MMM YYYY")}
+                        {moment(giftCard.ends_at).format("YYYY-MM-DD")}
                       </div>
                     </div>
                   )}
@@ -166,7 +166,7 @@ const GiftCardDetails = () => {
                       {t("details-created", "Created")}
                     </div>
                     <div>
-                      {moment(giftCard.created_at).format("DD MMM YYYY")}
+                      {moment(giftCard.created_at).format("YYYY-MM-DD")}
                     </div>
                   </div>
                 </div>

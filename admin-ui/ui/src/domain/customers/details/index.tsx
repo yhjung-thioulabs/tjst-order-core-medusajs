@@ -114,7 +114,7 @@ const CustomerDetail = () => {
               <div className="inter-smaller-regular text-grey-50 mb-1">
                 {t("details-first-seen", "First seen")}
               </div>
-              <div>{moment(customer.created_at).format("DD MMM YYYY")}</div>
+              <div>{moment(customer.created_at).format("YYYY-MM-DD")}</div>
             </div>
             <div className="flex flex-col pl-6">
               <div className="inter-smaller-regular text-grey-50 mb-1">

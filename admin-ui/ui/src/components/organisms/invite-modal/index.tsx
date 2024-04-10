@@ -114,7 +114,7 @@ const InviteModal: React.FC<InviteModalProps> = ({ handleClose }) => {
                 type="button"
                 onClick={handleClose}
               >
-                {t("invite-modal-cancel", "Cancel")}
+                {t("invite-modal-cancel", "취소")}
               </Button>
               <Button
                 loading={isLoading}

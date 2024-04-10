@@ -267,7 +267,7 @@ const StockForm = ({
               handleClose()
             }}
           >
-            {t("product-variants-section-cancel", "Cancel")}
+            {t("product-variants-section-cancel", "취소")}
           </Button>
           <Button
             variant="primary"

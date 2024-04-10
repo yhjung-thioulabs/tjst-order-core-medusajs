@@ -100,7 +100,7 @@ const EditConfigurations: React.FC<EditConfigurationsProps> = ({
                 type="button"
                 onClick={onClose}
               >
-                {t("configurations-cancel", "Cancel")}
+                {t("configurations-cancel", "취소")}
               </Button>
               <Button
                 variant="primary"

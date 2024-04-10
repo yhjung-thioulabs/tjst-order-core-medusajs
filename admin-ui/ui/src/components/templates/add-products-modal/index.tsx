@@ -98,7 +98,7 @@ const AddProductsModal = ({
               className="rounded-rounded h-8 w-[128px]"
               onClick={close}
             >
-              {t("add-products-modal-cancel", "Cancel")}
+              {t("add-products-modal-cancel", "취소")}
             </Button>
             <Button
               variant="primary"

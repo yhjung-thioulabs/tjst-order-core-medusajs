@@ -105,7 +105,7 @@ const LocationEditModal = ({ onClose, location }: LocationEditModalProps) => {
             type="button"
             onClick={onClose}
           >
-            {t("edit-cancel", "Cancel")}
+            {t("edit-cancel", "취소")}
           </Button>
           <Button
             size="small"

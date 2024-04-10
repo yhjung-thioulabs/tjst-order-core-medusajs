@@ -249,7 +249,7 @@ const MarkShippedModal: React.FC<MarkShippedModalProps> = ({
                   onClick={handleCancel}
                   type="button"
                 >
-                  {t("mark-shipped-cancel", "Cancel")}
+                  {t("mark-shipped-cancel", "취소")}
                 </Button>
                 <Button
                   size="large"

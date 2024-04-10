@@ -313,7 +313,7 @@ const NewGiftCard = ({ onClose }: NewGiftCardProps) => {
                 className="w-eventButton"
                 onClick={onClose}
               >
-                {t("gift-cards-cancel", "Cancel")}
+                {t("gift-cards-cancel", "취소")}
               </Button>
               <Button
                 type="submit"

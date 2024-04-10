@@ -59,8 +59,8 @@ const useOrderTableColums = () => {
         accessor: "created_at",
         Cell: ({ cell: { value } }) => (
           <div>
-            <Tooltip content={moment(value).format("DD MMM YYYY hh:mm a")}>
-              {moment(value).format("DD MMM YYYY")}
+            <Tooltip content={moment(value).format("YYYY-MM-DD hh:mm a")}>
+              {moment(value).format("YYYY-MM-DD hh:mm a")}
             </Tooltip>
           </div>
         ),

@@ -89,7 +89,7 @@ const NewReservation = ({
                 type="button"
                 onClick={onClose}
               >
-                {t("new-cancel", "Cancel")}
+                {t("new-cancel", "취소")}
               </Button>
               <Button size="small" variant="primary" type="submit">
                 {t("new-save-reservation", "Save reservation")}

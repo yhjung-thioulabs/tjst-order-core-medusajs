@@ -200,7 +200,7 @@ const DraftOrderDetails = () => {
                 }
               )}
               subtitle={moment(draft_order.created_at).format(
-                "D MMMM YYYY hh:mm a"
+                "YYYY-MM-DD hh:mm a"
               )}
               status={<OrderStatusComponent />}
               customActionable={
@@ -505,7 +505,7 @@ const DraftOrderDetails = () => {
             "This will create an order. Mark this as paid if you received the payment."
           )}
           confirmText={t("draft-orders-mark-paid", "Mark paid")}
-          cancelText={t("draft-orders-cancel", "Cancel")}
+          cancelText={t("draft-orders-cancel", "취소")}
           handleClose={() => setShowAsPaidConfirmation(false)}
           onConfirm={onMarkAsPaidConfirm}
         />

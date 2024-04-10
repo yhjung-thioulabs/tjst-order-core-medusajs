@@ -117,7 +117,7 @@ const MediaModal = ({ product, open, onClose }: Props) => {
                 type="button"
                 onClick={onReset}
               >
-                {t("product-media-section-cancel", "Cancel")}
+                {t("product-media-section-cancel", "취소")}
               </Button>
               <Button
                 size="small"

@@ -393,7 +393,7 @@ const EditReservationDrawer = ({
               className="border"
               onClick={close}
             >
-              {t("reservation-cancel", "Cancel")}
+              {t("reservation-cancel", "취소")}
             </Button>
             <Button variant="primary" size="small" type="submit">
               {t("reservation-save-and-close", "Save and close")}

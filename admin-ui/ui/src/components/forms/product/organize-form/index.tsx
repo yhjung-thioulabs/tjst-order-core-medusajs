@@ -61,7 +61,7 @@ const OrganizeForm = ({ form }: Props) => {
                 onChange={onChange}
                 options={productTypeOptions}
                 value={value || null}
-                placeholder="Choose a type"
+                placeholder="타입 선택"
                 onCreateOption={onCreateOption}
                 isClearable
               />

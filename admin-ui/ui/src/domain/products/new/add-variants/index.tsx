@@ -286,7 +286,7 @@ const AddVariantsForm = ({
                 <span>
                   {t(
                     "add-variants-variations-comma-separated",
-                    "Variations (comma separated)"
+                    "변형 (콤마 ',' 로 구분됨)"
                   )}
                 </span>
               </div>
@@ -446,7 +446,7 @@ const AddVariantsForm = ({
                 type="button"
                 onClick={onToggleForm}
               >
-                {t("add-variants-cancel", "Cancel")}
+                {t("add-variants-cancel", "취소")}
               </Button>
               <Button
                 variant="primary"

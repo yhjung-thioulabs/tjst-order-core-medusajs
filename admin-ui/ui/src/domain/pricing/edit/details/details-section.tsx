@@ -58,7 +58,7 @@ const PriceListDetailsSection = ({
     const confirmText =
       t("price-list-details-section-prompt-confirm-text", "Delete") ?? undefined
     const cancelText =
-      t("price-list-details-section-prompt-cancel-text", "Cancel") ?? undefined
+      t("price-list-details-section-prompt-cancel-text", "취소") ?? undefined
 
     const res = await prompt({
       title: t("price-list-details-section-prompt-title", "Delete price list"),

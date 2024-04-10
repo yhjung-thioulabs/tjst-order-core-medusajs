@@ -122,7 +122,7 @@ const EditGeneral: React.FC<EditGeneralProps> = ({
                 type="button"
                 onClick={onClose}
               >
-                {t("general-cancel", "Cancel")}
+                {t("general-cancel", "취소")}
               </Button>
               <Button
                 variant="primary"

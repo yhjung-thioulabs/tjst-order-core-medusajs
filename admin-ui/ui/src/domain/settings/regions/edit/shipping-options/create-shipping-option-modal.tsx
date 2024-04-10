@@ -85,7 +85,7 @@ const CreateShippingOptionModal = ({ open, onClose, region }: Props) => {
                 type="button"
                 onClick={closeAndReset}
               >
-                {t("shipping-options-cancel", "Cancel")}
+                {t("shipping-options-cancel", "취소")}
               </Button>
               <Button
                 variant="primary"

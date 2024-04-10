@@ -38,7 +38,7 @@ const Note: React.FC<NoteProps> = ({ event }) => {
           <EventActionables
             actions={[
               {
-                label: "Delete",
+                label: "삭제",
                 icon: <TrashIcon size={20} />,
                 onClick: () => setShowDelete(!showDelete),
                 variant: "danger",
@@ -61,9 +61,9 @@ const Note: React.FC<NoteProps> = ({ event }) => {
         <DeletePrompt
           handleClose={() => setShowDelete(!showDelete)}
           onDelete={async () => deleteNote.mutate(undefined)}
-          confirmText="Yes, delete"
-          heading="Delete note"
-          successText="Deleted note"
+          confirmText="삭제"
+          heading="메모 삭제하기"
+          successText="메모가 삭제되었습니다."
         />
       )}
     </>

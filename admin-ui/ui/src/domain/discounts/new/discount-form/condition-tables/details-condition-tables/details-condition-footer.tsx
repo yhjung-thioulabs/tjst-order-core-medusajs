@@ -30,7 +30,7 @@ const DetailsConditionFooter: React.FC<AddConditionFooterProps> = ({
   return (
     <div className="gap-x-xsmall flex w-full justify-end">
       <Button variant="ghost" size="small" onClick={onClose}>
-        {t("details-condition-tables-cancel", "Cancel")}
+        {t("details-condition-tables-cancel", "취소")}
       </Button>
       <Button
         variant="primary"

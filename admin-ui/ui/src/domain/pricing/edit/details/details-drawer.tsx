@@ -144,7 +144,7 @@ const PriceListDetailsDrawer = ({
           <Drawer.Footer>
             <Drawer.Close asChild>
               <Button variant="secondary">
-                {t("price-list-details-drawer-cancel-button", "Cancel")}
+                {t("price-list-details-drawer-cancel-button", "취소")}
               </Button>
             </Drawer.Close>
             <Button onClick={onSubmit} isLoading={isLoading}>

@@ -23,8 +23,8 @@ const useCollectionTableColumn = () => {
         Header: t("collections-table-created-at", "Created At"),
         accessor: "created_at",
         Cell: ({ cell: { value } }) => (
-          <Tooltip content={moment(value).format("DD MMM YYYY hh:mm A")}>
-            {moment(value).format("DD MMM YYYY")}
+          <Tooltip content={moment(value).format("YYYY-MM-DD hh:mm A")}>
+            {moment(value).format("YYYY-MM-DD")}
           </Tooltip>
         ),
       },
@@ -32,8 +32,8 @@ const useCollectionTableColumn = () => {
         Header: t("collections-table-updated-at", "Updated At"),
         accessor: "updated_at",
         Cell: ({ cell: { value } }) => (
-          <Tooltip content={moment(value).format("DD MMM YYYY hh:mm A")}>
-            {moment(value).format("DD MMM YYYY")}
+          <Tooltip content={moment(value).format("YYYY-MM-DD hh:mm A")}>
+            {moment(value).format("YYYY-MM-DD")}
           </Tooltip>
         ),
       },

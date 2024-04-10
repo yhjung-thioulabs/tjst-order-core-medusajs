@@ -161,7 +161,7 @@ const EditVariantsModal = ({ open, onClose, product }: Props) => {
                     type="button"
                     onClick={resetAndClose}
                   >
-                    {t("edit-variants-modal-cancel", "Cancel")}
+                    {t("edit-variants-modal-cancel", "취소")}
                   </Button>
                   <Button
                     variant="primary"

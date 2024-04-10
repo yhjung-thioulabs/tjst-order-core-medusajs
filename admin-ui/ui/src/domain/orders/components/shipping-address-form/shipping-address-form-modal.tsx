@@ -84,7 +84,7 @@ const ShippingAddressFormScreen = ({ form, order }: Props) => {
             type="button"
             onClick={cancelAndPop}
           >
-            {t("shipping-address-form-cancel", "Cancel")}
+            {t("shipping-address-form-cancel", "취소")}
           </Button>
           <Button
             variant="primary"

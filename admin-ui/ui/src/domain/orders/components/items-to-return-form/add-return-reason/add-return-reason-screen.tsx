@@ -110,7 +110,7 @@ const AddReasonScreen = ({
       <Modal.Footer>
         <div className="gap-x-xsmall flex w-full items-center justify-end">
           <Button size="small" variant="secondary" onClick={pop} type="button">
-            {t("add-return-reason-cancel", "Cancel")}
+            {t("add-return-reason-cancel", "취소")}
           </Button>
           <Button
             size="small"

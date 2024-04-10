@@ -280,7 +280,7 @@ function UploadModal(props: UploadModalProps) {
           <p className="text-grey-50 mb-2 text-base">{description2Text}</p>
 
           <FileSummary
-            name="medusa-template.csv"
+            name="tjst-template.csv"
             size={2967}
             action={
               <a
@@ -303,7 +303,7 @@ function UploadModal(props: UploadModalProps) {
                 size="small"
                 onClick={onClose}
               >
-                {t("upload-modal-cancel", "Cancel")}
+                {t("upload-modal-cancel", "취소")}
               </Button>
 
               <Button

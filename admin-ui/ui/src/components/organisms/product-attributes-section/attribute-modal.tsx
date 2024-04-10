@@ -108,7 +108,7 @@ const AttributeModal = ({ product, open, onClose }: Props) => {
                 type="button"
                 onClick={onReset}
               >
-                {t("product-attributes-section-cancel", "Cancel")}
+                {t("product-attributes-section-cancel", "취소")}
               </Button>
               <Button
                 size="small"

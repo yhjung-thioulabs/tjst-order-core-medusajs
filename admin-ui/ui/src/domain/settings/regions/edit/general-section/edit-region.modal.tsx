@@ -138,7 +138,7 @@ const EditRegionModal = ({ region, onClose, open }: Props) => {
                 type="button"
                 onClick={closeAndReset}
               >
-                {t("general-section-cancel", "Cancel")}
+                {t("general-section-cancel", "취소")}
               </Button>
               <Button
                 variant="primary"

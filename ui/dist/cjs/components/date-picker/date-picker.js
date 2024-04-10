@@ -241,7 +241,7 @@ const SingleDatePicker = ({ defaultValue, value, size = "base", onChange, preset
                         showTimePicker && (React.createElement("div", { className: "border-ui-border-base border-t p-3" },
                             React.createElement(time_input_1.TimeInput, { "aria-label": "Time", onChange: onTimeChange, isDisabled: !date, value: time, isRequired: props.required }))),
                         React.createElement("div", { className: "border-ui-border-base flex items-center gap-x-2 border-t p-3" },
-                            React.createElement(button_1.Button, { variant: "secondary", size: "small", className: "w-full", type: "button", onClick: onCancel }, (_b = translations === null || translations === void 0 ? void 0 : translations.cancel) !== null && _b !== void 0 ? _b : "Cancel"),
+                            React.createElement(button_1.Button, { variant: "secondary", size: "small", className: "w-full", type: "button", onClick: onCancel }, (_b = translations === null || translations === void 0 ? void 0 : translations.cancel) !== null && _b !== void 0 ? _b : "취소"),
                             React.createElement(button_1.Button, { variant: "primary", size: "small", className: "w-full", type: "button", onClick: onApply }, (_c = translations === null || translations === void 0 ? void 0 : translations.apply) !== null && _c !== void 0 ? _c : "Apply"))))))));
 };
 const RangeDatePicker = ({ 
@@ -421,7 +421,7 @@ presets, disabled, className, placeholder, translations, ...props }) => {
                                 " ",
                                 displayRange),
                             React.createElement("div", { className: "flex items-center gap-x-2" },
-                                React.createElement(button_1.Button, { size: "small", variant: "secondary", type: "button", onClick: onCancel }, (_e = translations === null || translations === void 0 ? void 0 : translations.cancel) !== null && _e !== void 0 ? _e : "Cancel"),
+                                React.createElement(button_1.Button, { size: "small", variant: "secondary", type: "button", onClick: onCancel }, (_e = translations === null || translations === void 0 ? void 0 : translations.cancel) !== null && _e !== void 0 ? _e : "취소"),
                                 React.createElement(button_1.Button, { size: "small", variant: "primary", type: "button", onClick: onApply }, (_f = translations === null || translations === void 0 ? void 0 : translations.apply) !== null && _f !== void 0 ? _f : "Apply")))))))));
 };
 const validatePresets = (presets, rules) => {

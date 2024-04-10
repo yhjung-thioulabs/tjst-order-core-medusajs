@@ -232,7 +232,7 @@ function EditCustomersTable(props: EditCustomersTableProps) {
               className="w-eventButton"
               onClick={onClose}
             >
-              {t("customer-group-table-cancel", "Cancel")}
+              {t("customer-group-table-cancel", "취소")}
             </Button>
             <Button
               variant="primary"

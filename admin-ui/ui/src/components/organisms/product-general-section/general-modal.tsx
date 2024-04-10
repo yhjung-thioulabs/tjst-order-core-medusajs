@@ -137,7 +137,7 @@ const GeneralModal = ({ product, open, onClose }: Props) => {
                 type="button"
                 onClick={onReset}
               >
-                {t("product-general-section-cancel", "Cancel")}
+                {t("product-general-section-cancel", "취소")}
               </Button>
               <Button
                 size="small"

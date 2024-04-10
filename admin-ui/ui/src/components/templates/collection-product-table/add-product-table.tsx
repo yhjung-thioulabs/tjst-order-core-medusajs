@@ -219,7 +219,7 @@ const AddProductsTable: React.FC<AddProductsTableProps> = ({
               className="w-eventButton"
               onClick={onClose}
             >
-              {t("collection-product-table-cancel", "Cancel")}
+              {t("collection-product-table-cancel", "취소")}
             </Button>
             <Button
               variant="primary"

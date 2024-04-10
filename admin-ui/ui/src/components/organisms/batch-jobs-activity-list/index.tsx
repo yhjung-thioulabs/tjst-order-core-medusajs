@@ -227,7 +227,7 @@ const BatchJobActivityCard = (props: { batchJob: BatchJob }) => {
               {buildButton(onDownloadFile, "ghost", "Download", "ml-2")}
             </div>
           )}
-          {canCancel && buildButton(() => cancelBatchJob(), "danger", "Cancel")}
+          {canCancel && buildButton(() => cancelBatchJob(), "danger", "취소")}
         </div>
       )
     )

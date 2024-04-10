@@ -150,7 +150,7 @@ function AddScreen(props: {
 
       <div className="flex justify-end gap-2">
         <Button size="small" variant="ghost" onClick={props.close}>
-          {t("modals-cancel", "Cancel")}
+          {t("modals-cancel", "취소")}
         </Button>
         <Button
           size="small"

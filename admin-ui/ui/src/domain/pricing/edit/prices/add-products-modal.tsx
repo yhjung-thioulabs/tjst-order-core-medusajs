@@ -509,7 +509,7 @@ const AddProductsModal = ({
   const backButtonText = React.useMemo(() => {
     switch (tab) {
       case Tab.PRODUCTS:
-        return t("price-list-add-products-modal-back-button-cancel", "Cancel")
+        return t("price-list-add-products-modal-back-button-cancel", "취소")
       default:
         return t("price-list-add-products-modal-back-button", "Back")
     }

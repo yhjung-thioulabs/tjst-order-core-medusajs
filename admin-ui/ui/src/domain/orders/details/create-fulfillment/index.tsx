@@ -248,7 +248,7 @@ const CreateFulfillmentModal: React.FC<CreateFulfillmentModalProps> = ({
               type="button"
               onClick={handleCancel}
             >
-              {t("create-fulfillment-cancel", "Cancel")}
+              {t("create-fulfillment-cancel", "취소")}
             </Button>
             <Button
               size="small"

@@ -37,7 +37,7 @@ const AddConditionFooter: React.FC<AddConditionFooterProps> = ({
           reset()
         }}
       >
-        {t("add-condition-tables-cancel", "Cancel")}
+        {t("add-condition-tables-cancel", "취소")}
       </Button>
       <Button
         variant="primary"

@@ -117,7 +117,7 @@ const EditUserModal: React.FC<EditUserModalProps> = ({
                 onClick={handleClose}
                 className="mr-2"
               >
-                {t("edit-user-modal-cancel", "Cancel")}
+                {t("edit-user-modal-cancel", "취소")}
               </Button>
               <Button
                 loading={isLoading}

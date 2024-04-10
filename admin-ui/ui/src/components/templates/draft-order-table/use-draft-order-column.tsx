@@ -55,7 +55,7 @@ const useDraftOrderTableColumns = () => {
         accessor: "created_at",
         Cell: ({ cell: { value, getCellProps } }) => (
           <Table.Cell {...getCellProps()}>
-            {moment(value).format("DD MMM YYYY")}
+            {moment(value).format("YYYY-MM-DD")}
           </Table.Cell>
         ),
       },

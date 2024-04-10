@@ -88,7 +88,7 @@ const EditUserInformationModal = ({ user, open, onClose }: Props) => {
         <Modal.Footer className="border-grey-20 pt-base border-t">
           <div className="gap-x-xsmall flex w-full items-center justify-end">
             <Button variant="secondary" size="small" onClick={onClose}>
-              {t("edit-user-information-cancel", "Cancel")}
+              {t("edit-user-information-cancel", "취소")}
             </Button>
             <Button
               variant="primary"

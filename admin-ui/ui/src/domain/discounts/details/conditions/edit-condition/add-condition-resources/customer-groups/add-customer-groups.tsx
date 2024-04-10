@@ -58,7 +58,7 @@ const AddCustomerGroupsConditionsScreen = () => {
       <Modal.Footer>
         <div className="space-x-xsmall flex w-full justify-end">
           <Button variant="secondary" size="small" onClick={pop}>
-            {t("customer-groups-cancel", "Cancel")}
+            {t("customer-groups-cancel", "취소")}
           </Button>
           <Button
             variant="primary"

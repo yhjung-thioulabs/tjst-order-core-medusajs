@@ -112,7 +112,7 @@ const EditGiftCardModal = ({
                 onClick={onClose}
                 type="button"
               >
-                {t("details-cancel", "Cancel")}
+                {t("details-cancel", "취소")}
               </Button>
               <Button
                 variant="primary"

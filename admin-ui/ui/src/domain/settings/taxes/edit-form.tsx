@@ -268,7 +268,7 @@ const EditTaxRate = ({
             size="small"
             className="w-eventButton justify-center"
           >
-            {t("taxes-cancel", "Cancel")}
+            {t("taxes-cancel", "취소")}
           </Button>
           <Button
             type="submit"

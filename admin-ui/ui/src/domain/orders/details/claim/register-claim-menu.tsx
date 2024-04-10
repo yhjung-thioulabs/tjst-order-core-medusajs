@@ -374,7 +374,7 @@ const RegisterClaimMenu = ({ order, onClose }: Props) => {
                   type="button"
                   onClick={onCancel}
                 >
-                  {t("claim-cancel", "Cancel")}
+                  {t("claim-cancel", "취소")}
                 </Button>
                 <Button
                   variant="primary"

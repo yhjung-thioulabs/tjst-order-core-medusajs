@@ -140,7 +140,7 @@ const EditDenominationsModal = ({
                 type="button"
                 onClick={handleClose}
               >
-                {t("gift-card-denominations-section-cancel", "Cancel")}
+                {t("gift-card-denominations-section-cancel", "취소")}
               </Button>
               <Button
                 variant="primary"

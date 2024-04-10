@@ -91,7 +91,7 @@ const DatePicker: React.FC<DateTimePickerProps> = ({
               </div>
               <label className="w-full text-left">
                 {date
-                  ? moment(date).format("ddd, DD MMM YYYY")
+                  ? moment(date).format("ddd, YYYY-MM-DD")
                   : "---, -- -- ----"}
               </label>
             </InputContainer>

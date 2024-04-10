@@ -396,7 +396,7 @@ function OrderEditModal(props: OrderEditModalProps) {
               type="button"
               onClick={onCancel}
             >
-              {t("edit-cancel", "Cancel")}
+              {t("edit-cancel", "취소")}
             </Button>
             <Button
               variant="primary"

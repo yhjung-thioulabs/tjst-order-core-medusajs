@@ -11,7 +11,7 @@ export const useCustomerColumns = () => {
       {
         Header: t("customer-table-date-added", "Date added"),
         accessor: "created_at", // accessor is the "key" in the data
-        Cell: ({ cell: { value } }) => moment(value).format("DD MMM YYYY"),
+        Cell: ({ cell: { value } }) => moment(value).format("YYYY-MM-DD"),
       },
       {
         Header: t("customer-table-name", "Name"),

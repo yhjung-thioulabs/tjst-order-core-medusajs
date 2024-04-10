@@ -270,7 +270,7 @@ const NewVariant = ({
                 type="button"
                 onClick={closeAndReset}
               >
-                {t("new-variant-cancel", "Cancel")}
+                {t("new-variant-cancel", "취소")}
               </Button>
               <Button
                 variant="primary"

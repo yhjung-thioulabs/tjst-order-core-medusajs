@@ -73,8 +73,8 @@ var product_category_1 = require("../../../../types/product-category");
  * x-featureFlag: "product_categories"
  * parameters:
  *   - (path) id=* {string} The ID of the Product Category.
- *   - (query) expand {string} (Comma separated) Which fields should be expanded in each product category.
- *   - (query) fields {string} (Comma separated) Which fields should be retrieved in each product category.
+ *   - (query) expand {string} (콤마 ',' 로 구분됨) Which fields should be expanded in each product category.
+ *   - (query) fields {string} (콤마 ',' 로 구분됨) Which fields should be retrieved in each product category.
  * requestBody:
  *   content:
  *     application/json:

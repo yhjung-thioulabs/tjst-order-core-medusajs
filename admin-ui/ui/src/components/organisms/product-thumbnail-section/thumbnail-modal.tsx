@@ -119,7 +119,7 @@ const ThumbnailModal = ({ product, open, onClose }: Props) => {
                 type="button"
                 onClick={onReset}
               >
-                {t("product-thumbnail-section-cancel", "Cancel")}
+                {t("product-thumbnail-section-cancel", "취소")}
               </Button>
               <Button
                 size="small"

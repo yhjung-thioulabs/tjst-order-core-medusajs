@@ -113,7 +113,7 @@ const ReturnReasonDetail = ({ reason }: ReturnReasonDetailsProps) => {
             onClick: handleSubmit(onSave),
           },
           {
-            label: t("return-reasons-cancel", "Cancel"),
+            label: t("return-reasons-cancel", "취소"),
             onClick: handleCancel,
           },
         ]}

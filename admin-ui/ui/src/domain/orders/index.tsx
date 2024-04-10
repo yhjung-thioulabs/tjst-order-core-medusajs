@@ -52,7 +52,7 @@ const OrderIndex = () => {
         onClick={() => openExportModal()}
       >
         <ExportIcon size={20} />
-        주문 내보내기
+        Excel 내보내기
       </Button>,
     ]
   }, [view])

@@ -219,7 +219,7 @@ const RefundMenu = ({
                   className="w-[112px]"
                   variant="ghost"
                 >
-                  {t("refund-cancel", "Cancel")}
+                  {t("refund-cancel", "취소")}
                 </Button>
                 <Button
                   type="submit"

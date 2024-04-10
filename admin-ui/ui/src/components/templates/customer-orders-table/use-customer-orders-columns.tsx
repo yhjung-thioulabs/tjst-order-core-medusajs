@@ -174,7 +174,7 @@ export const useCustomerOrdersColumns = (): Column<Order>[] => {
         Header: t("customer-orders-table-date", "Date"),
         accessor: "created_at",
         Cell: ({ value }) => {
-          return moment(value).format("DD MMM YYYY hh:mm")
+          return moment(value).format("YYYY-MM-DD hh:mm")
         },
       },
       {

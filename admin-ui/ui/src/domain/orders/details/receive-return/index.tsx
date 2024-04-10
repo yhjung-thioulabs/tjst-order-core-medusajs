@@ -360,7 +360,7 @@ export const ReceiveReturnMenu = ({ order, returnRequest, onClose }: Props) => {
           <Modal.Footer>
             <div className="gap-x-xsmall flex w-full items-center justify-end">
               <Button size="small" variant="secondary">
-                {t("receive-return-cancel", "Cancel")}
+                {t("receive-return-cancel", "취소")}
               </Button>
               <Button
                 size="small"

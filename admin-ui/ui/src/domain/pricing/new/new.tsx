@@ -591,7 +591,7 @@ const PriceListNew = () => {
   const backButtonText = React.useMemo(() => {
     switch (tab) {
       case Tab.DETAILS:
-        return t("price-list-new-form-back-button-cancel", "Cancel")
+        return t("price-list-new-form-back-button-cancel", "취소")
       default:
         return t("price-list-new-form-back-button-back", "Back")
     }

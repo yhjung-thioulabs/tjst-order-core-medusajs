@@ -55,7 +55,7 @@ const AddTagsConditionsScreen = () => {
       <Modal.Footer>
         <div className="space-x-xsmall flex w-full justify-end">
           <Button variant="secondary" size="small" onClick={pop}>
-            {t("tags-cancel", "Cancel")}
+            {t("tags-cancel", "취소")}
           </Button>
           <Button
             variant="primary"

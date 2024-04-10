@@ -357,7 +357,7 @@ const OrderDetails = () => {
                     </Tooltip>
                   }
                   subtitle={moment(order.created_at).format(
-                    "D MMMM YYYY hh:mm a"
+                    "YYYY-MM-DD hh:mm a"
                   )}
                   status={<OrderStatusComponent status={order.status} />}
                   forceDropdown={true}
@@ -426,7 +426,7 @@ const OrderDetails = () => {
                           totalAmount={payment.amount}
                           totalTitle={payment.id}
                           subtitle={`${moment(payment.created_at).format(
-                            "DD MMM YYYY hh:mm"
+                            "YYYY-MM-DD hh:mm"
                           )}`}
                         />
                         {!!payment.amount_refunded && (
@@ -538,7 +538,7 @@ const OrderDetails = () => {
                         <h1 className="inter-large-semibold text-grey-90">
                           {extractCustomerName(order)}
                         </h1>
-                        {order.shipping_address && (
+                        {/* {order.shipping_address && (
                           <span className="inter-small-regular text-grey-50">
                             {order.shipping_address.city},{" "}
                             {
@@ -547,7 +547,7 @@ const OrderDetails = () => {
                               ]
                             }
                           </span>
-                        )}
+                        )} */}
                       </div>
                     </div>
                     <div className="mt-6 flex space-x-6 divide-x">
@@ -560,14 +560,14 @@ const OrderDetails = () => {
                           <span>{order.shipping_address?.phone || ""}</span>
                         </div>
                       </div>
-                      <FormattedAddress
+                      {/* <FormattedAddress
                         title={t("details-shipping", "Shipping")}
                         addr={order.shipping_address}
                       />
                       <FormattedAddress
                         title={t("details-billing", "Billing")}
                         addr={order.billing_address}
-                      />
+                      /> */}
                     </div>
                   </div>
                 </BodyCard>

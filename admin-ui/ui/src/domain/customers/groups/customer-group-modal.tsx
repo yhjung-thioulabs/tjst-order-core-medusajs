@@ -156,7 +156,7 @@ function CustomerGroupModal({
                 type="button"
                 onClick={onClose}
               >
-                {t("groups-cancel", "Cancel")}
+                {t("groups-cancel", "취소")}
               </Button>
               <Button size="small" variant="primary" type="submit">
                 <span>

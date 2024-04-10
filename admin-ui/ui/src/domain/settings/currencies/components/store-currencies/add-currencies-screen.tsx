@@ -110,7 +110,7 @@ const AddCurrenciesScreen = () => {
       <Modal.Footer>
         <div className="gap-x-xsmall flex w-full items-center justify-end">
           <Button variant="secondary" size="small" onClick={pop}>
-            {t("store-currencies-cancel", "Cancel")}
+            {t("store-currencies-cancel", "취소")}
           </Button>
           <Button
             variant="primary"

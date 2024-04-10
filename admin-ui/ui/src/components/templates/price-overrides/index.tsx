@@ -164,7 +164,7 @@ const PriceOverrides = ({
             size="large"
             onClick={onClose}
           >
-            {t("price-overrides-cancel", "Cancel")}
+            {t("price-overrides-cancel", "취소")}
           </Button>
           <Button
             size="large"

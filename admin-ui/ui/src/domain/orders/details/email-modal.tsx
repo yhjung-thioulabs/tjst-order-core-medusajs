@@ -79,7 +79,7 @@ const EmailModal: React.FC<EmailModalProps> = ({
                 type="button"
                 onClick={handleClose}
               >
-                {t("details-cancel", "Cancel")}
+                {t("details-cancel", "취소")}
               </Button>
               <Button
                 size="large"

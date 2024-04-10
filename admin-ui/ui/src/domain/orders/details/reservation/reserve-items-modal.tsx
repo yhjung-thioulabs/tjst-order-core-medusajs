@@ -136,7 +136,7 @@ const ReserveItemsModal: React.FC<ReserveItemsModalProps> = ({
                 type="button"
                 onClick={close}
               >
-                {t("reservation-cancel", "Cancel")}
+                {t("reservation-cancel", "취소")}
               </Button>
               <Button size="small" variant="primary" type="submit">
                 {t("reservation-save-reservation", "Save reservation")}

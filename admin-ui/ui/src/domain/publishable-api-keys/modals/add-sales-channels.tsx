@@ -127,7 +127,7 @@ function AddSalesChannelsSideModal(props: AddSalesChannelsSideModalProps) {
 
         <div className="flex justify-end gap-2">
           <Button size="small" variant="ghost" onClick={onClose}>
-            {t("modals-cancel", "Cancel")}
+            {t("modals-cancel", "취소")}
           </Button>
           <Button
             size="small"

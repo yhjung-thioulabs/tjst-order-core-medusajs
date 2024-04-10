@@ -27,7 +27,7 @@ const EditConditionFooter: React.FC<EditConditionFooterProps> = ({
   return (
     <div className="gap-x-xsmall flex w-full items-center justify-end">
       <Button variant="secondary" size="small" onClick={onClose}>
-        {t("edit-condition-tables-cancel", "Cancel")}
+        {t("edit-condition-tables-cancel", "취소")}
       </Button>
       <Button
         variant="danger"

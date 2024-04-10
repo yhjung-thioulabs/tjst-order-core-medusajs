@@ -480,7 +480,7 @@ const AdjustAvailabilityModal = ({
             className="border"
             onClick={handleClose}
           >
-            {t("inventory-table-cancel", "Cancel")}
+            {t("inventory-table-cancel", "취소")}
           </Button>
           <Button
             size="small"

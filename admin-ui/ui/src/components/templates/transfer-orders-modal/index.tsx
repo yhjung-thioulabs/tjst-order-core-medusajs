@@ -235,7 +235,7 @@ const TransferOrdersModal: React.FC<TransferOrdersModalProps> = ({
                 className="border-grey-20 border"
                 variant="ghost"
               >
-                {t("transfer-orders-modal-cancel", "Cancel")}
+                {t("transfer-orders-modal-cancel", "취소")}
               </Button>
               <Button
                 type="submit"

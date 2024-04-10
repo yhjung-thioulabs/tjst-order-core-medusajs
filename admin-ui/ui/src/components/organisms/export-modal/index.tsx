@@ -43,7 +43,7 @@ const ExportModal: React.FC<ExportModalProps> = ({
               onClick={handleClose}
               className="mr-2"
             >
-              {t("export-modal-cancel", "Cancel")}
+              {t("export-modal-cancel", "취소")}
             </Button>
             <Button
               loading={loading}

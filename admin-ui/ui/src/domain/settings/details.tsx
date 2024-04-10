@@ -102,7 +102,7 @@ const AccountDetails = () => {
               onClick: handleSubmit(onSubmit),
             },
             {
-              label: t("settings-cancel", "Cancel"),
+              label: t("settings-cancel", "취소"),
               type: "button",
               onClick: handleCancel,
             },

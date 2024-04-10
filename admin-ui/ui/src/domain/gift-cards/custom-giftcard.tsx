@@ -132,7 +132,7 @@ const CustomGiftcard: React.FC<CustomGiftcardProps> = ({ onClose, open }) => {
                 size="small"
                 type="button"
               >
-                {t("gift-cards-cancel", "Cancel")}
+                {t("gift-cards-cancel", "취소")}
               </Button>
               <Button
                 variant="primary"

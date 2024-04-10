@@ -36,7 +36,7 @@ verificationInstruction = "Please type {val} to confirm:",
 /**
  * The label for the Cancel button.
  */
-cancelText = "Cancel", 
+cancelText = "취소", 
 /**
  * Label for the Confirm button.
  */

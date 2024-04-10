@@ -91,7 +91,7 @@ const AddConditionsModal = ({
               size="small"
               onClick={onClose}
             >
-              {t("discount-form-cancel", "Cancel")}
+              {t("discount-form-cancel", "취소")}
             </Button>
             <Button
               onClick={() => {

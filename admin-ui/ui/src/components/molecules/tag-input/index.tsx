@@ -158,7 +158,7 @@ const TagInput: React.FC<TagInputProps> = ({
     <div className={className}>
       {showLabel && (
         <InputHeader
-          label={label || "Tags (comma separated)"}
+          label={label || "태그 (콤마 ',' 로 구분됨)"}
           {...{ required, tooltipContent, tooltip }}
           className="mb-2"
         />
